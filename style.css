@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo{
+    background-color: #2774b3;
+    font-family: Georgia, serif;
+}
+.caixa{
+    background-color: #5aafaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 25px;
+    border: 4px solid #F4EBE8;
+
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 88%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;   
+}
+.formato-titulos{
+    color: #0c4472;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.formato_textos{
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: #8B0000;
+}
+.imagem{
+    border-radius: 360px;
+    text-align: center;
+}
+.imagem_hobbie{
+    border-radius: 360px;
+}
+.fotos-esporte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #008DD5;
+    border-top: solid 4px  #AECFDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+.img-contatos{
+    width: 50px;
+}
+
